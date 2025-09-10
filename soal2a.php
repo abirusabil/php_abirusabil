@@ -49,7 +49,6 @@ if ($step == 1) {
     echo "<b>Nama:</b> " . htmlspecialchars($_SESSION['nama']) . "<br>";
     echo "<b>Umur:</b> " . htmlspecialchars($_SESSION['umur']) . "<br>";
     echo "<b>Hobi:</b> " . htmlspecialchars($_SESSION['hobi']) . "<br>";
-   
     session_destroy();
 }
 ?>

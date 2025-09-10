@@ -4,7 +4,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Ambil input search 
 $nama = isset($_GET['nama']) ? $_GET['nama'] : '';
 $alamat = isset($_GET['alamat']) ? $_GET['alamat'] : '';
 
